@@ -29,13 +29,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHOP BY CATEGORY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TOh-cO-oto">
-                                <rect key="frame" x="16" y="30" width="165" height="23.5"/>
+                                <rect key="frame" x="16" y="30" width="165" height="24"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="140" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ZjN-XI-aJC">
-                                <rect key="frame" x="0.0" y="69.5" width="375" height="533.5"/>
+                                <rect key="frame" x="0.0" y="70" width="375" height="533"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="140" id="32f-cK-Hmw" customClass="CategoryCell" customModule="coder_swag_2" customModuleProvider="target">
@@ -46,10 +46,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="digital" translatesAutoresizingMaskIntoConstraints="NO" id="oVJ-Pa-dkB">
-                                                    <rect key="frame" x="0.0" y="3" width="375" height="133.5"/>
+                                                    <rect key="frame" x="0.0" y="3" width="375" height="134"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOODIES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mAm-8h-78a">
-                                                    <rect key="frame" x="109.5" y="56" width="156" height="28"/>
+                                                    <rect key="frame" x="110" y="56" width="156" height="28"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="156" id="D1S-Md-Yut"/>
                                                         <constraint firstAttribute="height" constant="28" id="Hyh-s6-9mF"/>
@@ -78,12 +78,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="TOh-cO-oto" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="0OM-Nf-xd8"/>
+                            <constraint firstItem="ZjN-XI-aJC" firstAttribute="top" secondItem="TOh-cO-oto" secondAttribute="bottom" constant="16" id="4bg-WV-XfK"/>
                             <constraint firstItem="ZjN-XI-aJC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="76u-3q-qYy"/>
-                            <constraint firstItem="ZjN-XI-aJC" firstAttribute="top" secondItem="TOh-cO-oto" secondAttribute="bottom" constant="16" id="D2W-Ib-kEy"/>
                             <constraint firstAttribute="trailing" secondItem="ZjN-XI-aJC" secondAttribute="trailing" id="FWk-qZ-1tr"/>
-                            <constraint firstItem="TOh-cO-oto" firstAttribute="top" secondItem="jU6-lj-5o3" secondAttribute="bottom" constant="30" id="FnD-1J-YNe"/>
                             <constraint firstItem="Zjk-yz-WuI" firstAttribute="top" secondItem="ZjN-XI-aJC" secondAttribute="bottom" id="far-mw-5ve"/>
+                            <constraint firstItem="TOh-cO-oto" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="obf-2x-6cI"/>
+                            <constraint firstItem="TOh-cO-oto" firstAttribute="top" secondItem="jU6-lj-5o3" secondAttribute="bottom" constant="30" id="rcB-7o-npV"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="CODER SWAG" id="ihn-1m-b3y"/>
